@@ -40,8 +40,11 @@ new Vue({
   store,
 
   // app data
-  data: {
-    title: "Vue Brown Bag"
+  data() {
+    return {
+      title: "Vue Brown Bag",
+      copyright: "© 2019 Ben Rutland"
+    };
   },
 
   // app template
@@ -49,6 +52,7 @@ new Vue({
 <div id="app">
   <app-header :title="title" />
   <router-view />
+  <p><small>{{ title }} {{ copyright }}</small></p>
 </div>
 `
   // finally mount the app to a DOM element

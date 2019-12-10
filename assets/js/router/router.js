@@ -21,5 +21,8 @@ export default {
       name: "404",
       component: () => import("../views/404.js")
     }
-  ]
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    return { x: 0, y: 0 };
+  }
 };
