@@ -6,12 +6,24 @@ export default {
 
   <h1>About</h1>
 
+  <app-blockquote>
+    <p>Nullam consectetur venenatis interdum. Morbi a diam sed quam imperdiet vulputate eget ac ligula. Aliquam porta maximus ex ut elementum. Aenean at accumsan ex. Maecenas aliquam vestibulum ex et dapibus. Suspendisse potenti. Quisque vel nulla malesuada, hendrerit libero a, venenatis mauris.</p>
+    <p>Aenean sollicitudin ex vitae hendrerit fringilla. Nunc efficitur neque nulla, sit amet varius risus gravida at.</p>
+    <template #cite>
+      <p><app-cite>Ben Rutland</app-cite></p>
+    </template>
+  </app-blockquote>
+
   <p class="standfirst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque quis nunc vel vestibulum. Integer nec finibus leo. Vivamus nec velit tincidunt, cursus ante quis, sagittis ante.</p>
 
   <p>Nullam consectetur venenatis interdum. Morbi a diam sed quam imperdiet vulputate eget ac ligula. Aliquam porta maximus ex ut elementum. Aenean at accumsan ex. Maecenas aliquam vestibulum ex et dapibus. Suspendisse potenti. Quisque vel nulla malesuada, hendrerit libero a, venenatis mauris. Aenean sollicitudin ex vitae hendrerit fringilla. Nunc efficitur neque nulla, sit amet varius risus gravida at.</p>
 
   <h2>Heading 2</h2>
   <p>Ut dignissim ipsum ullamcorper elit molestie cursus. Donec dictum fringilla nulla, eget ornare mauris dignissim ac. Nulla a placerat lacus. Praesent sodales dolor eget neque varius scelerisque. Vivamus efficitur ornare ipsum, id posuere ligula commodo et. Etiam egestas lectus id nibh pulvinar mattis. Vestibulum non aliquam sem. Integer pharetra est ex, vitae viverra eros faucibus ut. Morbi mollis nulla et accumsan posuere. Donec imperdiet dapibus elit, et dictum sem.</p>
+
+  <avatar-blockquote cite="Ben Rutland" src="https://www.picmonkey.com/blog/wp-content/uploads/2016/11/1-intro-photo-final.jpg">
+    <p>Nullam consectetur venenatis interdum. Morbi a diam sed quam imperdiet vulputate eget ac ligula. Aliquam porta maximus ex ut elementum. Aenean at accumsan ex. Maecenas aliquam vestibulum ex et dapibus. Suspendisse potenti. Quisque vel nulla malesuada, hendrerit libero a, venenatis mauris.</p>
+  </avatar-blockquote>
 
   <h3>Heading 3</h3>
   <p>Nam a finibus arcu. Phasellus sagittis pretium urna, eu blandit leo varius eget. Morbi suscipit metus eu massa rhoncus scelerisque. Ut ut hendrerit mi. Phasellus mi erat, pretium at gravida ut, fermentum at orci. Quisque quis ex venenatis, mattis tortor in, interdum purus. Vestibulum sit amet dapibus nunc. Vestibulum egestas mauris orci, maximus viverra turpis gravida non. Donec scelerisque, quam in commodo feugiat, odio libero molestie mi, et dictum eros arcu id justo. Cras auctor lorem id metus tempor bibendum. Donec a aliquet orci. Curabitur ut maximus sem, non accumsan dui. Phasellus orci metus, placerat id leo eu, consectetur porttitor ex. Integer dignissim, mauris in vehicula commodo, enim nisi lobortis mi, eget fermentum nisi sapien non tortor. Donec elementum, ligula in tincidunt auctor, eros urna sagittis metus, nec placerat mi dolor quis urna.</p>
