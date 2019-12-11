@@ -2,9 +2,13 @@ export default {
   template: `
 <div class="content">
 
-  <app-img src="https://i0.wp.com/www.xmedo.com/wp-content/uploads/2018/01/xmedo_vue_one.jpg" rtl-mirror fluid alt="" />
+  <app-img src="https://i0.wp.com/www.xmedo.com/wp-content/uploads/2018/01/xmedo_vue_one.jpg" rtl-mirror fluid alt="" class="alignwide" />
 
   <h1>About</h1>
+
+  <p class="standfirst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque quis nunc vel vestibulum. Integer nec finibus leo. Vivamus nec velit tincidunt, cursus ante quis, sagittis ante.</p>
+
+  <p>Nullam consectetur venenatis interdum. Morbi a diam sed quam imperdiet vulputate eget ac ligula. Aliquam porta maximus ex ut elementum. Aenean at accumsan ex. Maecenas aliquam vestibulum ex et dapibus. Suspendisse potenti. Quisque vel nulla malesuada, hendrerit libero a, venenatis mauris. Aenean sollicitudin ex vitae hendrerit fringilla. Nunc efficitur neque nulla, sit amet varius risus gravida at.</p>
 
   <app-blockquote>
     <p>Nullam consectetur venenatis interdum. Morbi a diam sed quam imperdiet vulputate eget ac ligula. Aliquam porta maximus ex ut elementum. Aenean at accumsan ex. Maecenas aliquam vestibulum ex et dapibus. Suspendisse potenti. Quisque vel nulla malesuada, hendrerit libero a, venenatis mauris.</p>
@@ -13,10 +17,6 @@ export default {
       <p><app-cite>Ben Rutland</app-cite></p>
     </template>
   </app-blockquote>
-
-  <p class="standfirst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque quis nunc vel vestibulum. Integer nec finibus leo. Vivamus nec velit tincidunt, cursus ante quis, sagittis ante.</p>
-
-  <p>Nullam consectetur venenatis interdum. Morbi a diam sed quam imperdiet vulputate eget ac ligula. Aliquam porta maximus ex ut elementum. Aenean at accumsan ex. Maecenas aliquam vestibulum ex et dapibus. Suspendisse potenti. Quisque vel nulla malesuada, hendrerit libero a, venenatis mauris. Aenean sollicitudin ex vitae hendrerit fringilla. Nunc efficitur neque nulla, sit amet varius risus gravida at.</p>
 
   <h2>Heading 2</h2>
   <p>Ut dignissim ipsum ullamcorper elit molestie cursus. Donec dictum fringilla nulla, eget ornare mauris dignissim ac. Nulla a placerat lacus. Praesent sodales dolor eget neque varius scelerisque. Vivamus efficitur ornare ipsum, id posuere ligula commodo et. Etiam egestas lectus id nibh pulvinar mattis. Vestibulum non aliquam sem. Integer pharetra est ex, vitae viverra eros faucibus ut. Morbi mollis nulla et accumsan posuere. Donec imperdiet dapibus elit, et dictum sem.</p>

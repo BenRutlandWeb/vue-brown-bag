@@ -2,7 +2,7 @@ export default {
   template: `
 <div class="content">
 
-  <app-img src="https://012.vuejs.org/images/mvvm.png" fluid alt="" />
+  <app-img src="https://012.vuejs.org/images/mvvm.png" fluid alt="" class="alignwide" />
 
   <h1>Vue Brown Bag</h1>
   <p class="standfirst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque quis nunc vel vestibulum. Integer nec finibus leo. Vivamus nec velit tincidunt, cursus ante quis, sagittis ante.</p>

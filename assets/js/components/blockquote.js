@@ -1,10 +1,14 @@
+// https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/
+
 export default {
   template: `
-<blockquote>
-  <slot />
-  <div class="flex align-center mt-1">
+<figure class="quote">
+  <blockquote>
+    <slot />
+  </blockquote>
+  <figcaption class="flex align-center mt-1">
     <slot name="cite" />
-  </div>
-</blockquote>
+  </figcaption>
+</figure>
 `
 };

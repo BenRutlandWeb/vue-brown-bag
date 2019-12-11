@@ -21,7 +21,7 @@ export default {
   template: `
 <div class="content">
 
-  <app-img src="https://www.square-cloud.co.uk/storage/app/media/images/contact-us.png" fluid alt="" />
+  <app-img src="https://www.square-cloud.co.uk/storage/app/media/images/contact-us.png" fluid alt="" class="alignwide" />
 
   <h1>Contact</h1>
 
