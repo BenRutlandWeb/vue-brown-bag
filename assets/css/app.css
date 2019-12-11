@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis:400,600|Material+Icons&display=swap");
+
+@import "https://unpkg.com/luminous-lightbox@2.3.2/dist/luminous-basic.min.css";
 *,
 *::before,
 *::after {
@@ -145,7 +147,7 @@ p + p {
   color: #fff;
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 0;
   display: flex;
   justify-content: space-between;
   padding: 0 1rem;
@@ -248,4 +250,16 @@ figure.quote {
 }
 
 blockquote {
+}
+.gallery {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  grid: auto / repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.gallery img {
+  height: 200px;
+  object-fit: cover;
 }
